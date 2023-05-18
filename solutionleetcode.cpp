@@ -5,7 +5,7 @@ public:
         int N = group.size();  
         
         vector<vector<vector<int>>> dp(N+1, vector<vector<int>>(n+1, vector<int>(minProfit+1)));
-        
+         
         dp[0][0][0] = 1;
         
         for (int i = 1; i <= N; i++) {
