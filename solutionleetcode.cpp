@@ -1,5 +1,5 @@
 class Solution {
-public:
+public: 
     int profitableSchemes(int n, int minProfit, vector<int>& group, vector<int>& profit) {
         int MOD = 1e9 + 7;   
         int N = group.size();   
