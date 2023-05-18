@@ -2,7 +2,7 @@ class Solution {
 public:
     int profitableSchemes(int n, int minProfit, vector<int>& group, vector<int>& profit) {
         int MOD = 1e9 + 7; 
-        int N = group.size();
+        int N = group.size(); 
         
         vector<vector<vector<int>>> dp(N+1, vector<vector<int>>(n+1, vector<int>(minProfit+1)));
         
